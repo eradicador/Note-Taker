@@ -1,7 +1,7 @@
 const router = require("express").Router()
 
 const Note = require("../db/Note.js")
-
+// argument
 router.get("/notes", (req, res) => {
     Note.getNotes()
         .then((notes) => res.json(notes))

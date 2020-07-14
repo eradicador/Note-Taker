@@ -37,12 +37,14 @@ class Note {
             text: text,
             id: id++
         }
+        //the 3rd .then is gonna return an empty note, added a new note using our spread operator
         return this.getNotes().then((notes) => [...notes, newNote]).then(function (newNotesArray) { this.write(newNotesArray) }).then(() => newNote);
 
 
 
     }
     deleteNote(id) {
+        // this function is gonna know what to filter all of the notes by id of array, return a new array minus the 1 that we dont want
         return this.getNotes().then((notes) => notes.filter((note) => note.id !== id)).then(filteredNotes => this.write(filteredNotes));
     }
 }
