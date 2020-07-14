@@ -5,7 +5,7 @@ const htmlroutes = require("./routes/htmlroutes");
 
 const app = express();
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4000;
 //middleware
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
@@ -14,9 +14,7 @@ app.use("/api", apiroutes);
 app.use("/api", htmlroutes);
 
 
-
-
-
 app.listen(PORT, () => {
     console.log(`App listening on port: ${PORT}`);
+    console.log("Ready on port 4000");
 })
