@@ -50,7 +50,7 @@ class Store {
   }
 
   removeNote(id) {
-    // Get all notes, remove the note with the given id, write the filtered notes
+    // this function is gonna know what to filter all of the notes by id of array, return a new array minus the 1 that we dont want
     return this.getNotes()
       .then(notes => notes.filter(note => note.id !== parseInt(id)))
       .then(filteredNotes => this.write(filteredNotes));
