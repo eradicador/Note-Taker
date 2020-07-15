@@ -1,6 +1,6 @@
 const router = require("express").Router()
-
 const Note = require("../db/Note.js")
+
 // argument
 router.get("/notes", (req, res) => {
     //call Note.getNotes
