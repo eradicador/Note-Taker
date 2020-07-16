@@ -1,7 +1,7 @@
 // requires express to interact with the front end
 const express = require("express");
-const apiRoutes = require("./routes/apiRoutes.js");
-const htmlRoutes = require("./routes/htmlRoutes.js");
+const apiRoutes = require("./routes/apiroutes.js");
+const htmlRoutes = require("./routes/htmlroutes.js");
 
 // Initialize the app and create a port
 const app = express();
