@@ -1,25 +1,27 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
+  "description": "As a developer i created an application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file in db folder. AS A user, I want to be able to write and save notes and i want to be able to delete notes I've written before so that I can organize my thoughts and keep track of tasks I need to complete.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.16.4",
-    "nodemon": "^2.0.4",
-    "util": "^0.12.3",
-    "uuid": "^8.2.0"
-  },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/eradicador/Note-Taker.git"
   },
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/eradicador/Note-Taker/issues"
-  }
+  },
+  "homepage": "https://github.com/eradicador/Note-Taker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "util": "^0.12.3",
+    "uuid": "^8.2.0"
+  },
+  "devDependencies": {}
 }

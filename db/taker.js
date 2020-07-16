@@ -4,7 +4,7 @@ const { v1: uuidv1 } = require('uuid');
 const readFileAsync = util.promisify(fs.readFile);
 const writeFileAsync = util.promisify(fs.writeFile);
 
-class Store {
+class Note {
   constructor() {
     this.lastId = 0;
   }
@@ -57,4 +57,4 @@ class Store {
   }
 }
 
-module.exports = new Store();
+module.exports = new Note();
