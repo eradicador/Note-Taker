@@ -7,7 +7,7 @@ As a developer i created an application that can be used to write, save, and del
 <img src ="screenshot.png" width="500">
 
 ## Link to deployed app
-https://github.com/eradicador/Note-Taker
+https://thawing-mountain-21534.herokuapp.com/
 
 ## Badge
 ![GitHub license](https://img.shields.io/badge/license-MIT-brightgreen)
